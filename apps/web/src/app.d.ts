@@ -72,6 +72,10 @@ declare global {
 				OAUTH_PUBLIC_URL: string;
 				DB: D1Database;
 				CRON_SECRET: string;
+				ATMOS_MAIL_API_KEY: string;
+				ATMOS_MAIL_DID: string;
+				ATMOS_MAIL_FROM: string;
+				ATMOS_MAIL_REPLY_TO: string;
 			};
 			/** Cloudflare Worker execution context. Use `ctx.waitUntil(promise)` to
 			 *  let the worker keep a fire-and-forget task alive after the response
